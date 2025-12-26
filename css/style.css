@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(../src/images/backgroundInicio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: clamp(0.7rem, calc(0.5rem+2vw, 3rem));
+    font-family: "Kumbh Sans", sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+.logo img {
+    width: 18vw;
+}
+.logo h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: "Labrada", serif;
+    font-weight: bolder;
+}
+
+.navegacao a {
+    font-family: "Labrada", serif;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+.navegacao span {
+    font-size: 3.5rem;
+}
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegacao ul li a {
+    opacity: 0.6;
+}
+.navegacao ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+header {
+    padding: 2vw 5vw;
+    backdrop-filter: blur(8px);
+}
+

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Labrada:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sobre {
+    padding: 7vw 4vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.sobre img {
+    width: 85vw;
+}
+
+.sobre h2 {
+    font-family: "Labrada", serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sobre p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 200;
+    line-height: 6.5vw;
+}
+
+.sessoes {
+    text-align: center;
+}
+
+.sessoes h2 {
+    margin-bottom: 4vw;
+    font-family: "Labrada", serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.sessoes h3 {
+    font-size: 2rem;
+    margin-top: 1vw;
+    opacity: 0.8;
+    font-weight: 200;
+}
+.sessoes iframe {
+    border-radius: 20px;
+    width: 85vw;
+}
+.sessoes nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+}
+
+.integrantes {
+    padding: 10vw 4vw;
+    text-align: center;
+}
+.integrantes h2 {
+    margin-bottom: 4vw;
+    font-family: "Labrada", serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.integrantes li {
+    font-size: 2rem;
+    margin-top: 1vw;
+    opacity: 0.6;
+    font-weight: 200;
+    margin-bottom: 2vw;
+}
