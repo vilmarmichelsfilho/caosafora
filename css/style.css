@@ -25,7 +25,7 @@ a {
 }
 .logo h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 7vw;
     font-family: "Labrada", serif;
     font-weight: bolder;
 }
@@ -33,11 +33,11 @@ a {
 .navegacao a {
     font-family: "Labrada", serif;
     color: white;
-    font-size: 2.8rem;
+    font-size: 6vw;
     font-weight: 300;
 }
 .navegacao span {
-    font-size: 3.5rem;
+    font-size: 9vw;
 }
 .navegacao {
     display: flex;
