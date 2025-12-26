@@ -58,3 +58,27 @@ header {
     backdrop-filter: blur(8px);
 }
 
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 0.5vw 2vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-bottom: 0;
+    }
+    .logo img {
+        width: 5vw;
+    }
+    .navegacao ul li a {
+        opacity: 0.8;
+    }
+    .navegacao {
+        justify-content: center;
+        gap: 34vw;
+    }
+    .navegacao ul {
+        flex-direction: row;
+    }
+}
