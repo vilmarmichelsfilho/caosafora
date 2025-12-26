@@ -15,16 +15,15 @@
 
 .sobre h2 {
     font-family: "Labrada", serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     text-align: center;
 }
 
 .sobre p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
     font-weight: 200;
-    line-height: 6.5vw;
 }
 
 .sessoes {
@@ -34,12 +33,12 @@
 .sessoes h2 {
     margin-bottom: 4vw;
     font-family: "Labrada", serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     text-align: center;
 }
 .sessoes h3 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     margin-top: 1vw;
     opacity: 0.8;
     font-weight: 200;
@@ -47,6 +46,7 @@
 .sessoes iframe {
     border-radius: 20px;
     width: 85vw;
+    height: 50vw;
 }
 .sessoes nav ul {
     display: flex;
@@ -61,12 +61,12 @@
 .integrantes h2 {
     margin-bottom: 4vw;
     font-family: "Labrada", serif;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     text-align: center;
 }
 .integrantes li {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1vw;
     opacity: 0.6;
     font-weight: 200;
