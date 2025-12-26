@@ -44,11 +44,23 @@
             <div>
                 <h2>A Maldição de Monthrat</h2>
                 <p>
-                    Três meninas com problemas em “casa” acabam tendo que
-                    se mudar para uma ilha no interior do Paraná, conhecida como “Monthrat” ao chegarem na ilha elas
+                    três meninas com problemas em “Casa” acabam tendo que
+                    se mudAr para uma ilha no interior do Paraná, cOnhecida como “monthrat” ao chegarem na ilha elas
                     ficam
-                    em uma mansão e tudo estava bem, ate coisas estranhas começarem a acontecer e um segredo maior se
-                    revelar.
+                    em uma manSão e tudo estava bem, ate coisas estranhas começarem a acontecer e um segredo maior se
+                    <button onclick="pedirsenha()"><span>revelar</span>.</button>
+                    <script>
+                        function pedirsenha() {
+                            const senhaCorreta = "71493";
+                            const senha = prompt("Digite a senha: \n ♦✡☆⏾&")
+
+                            if (senha === senhaCorreta) {
+                                window.location.href = "carregando.html";
+                            } else {
+                                alert("Senha incorreta!");
+                            }
+                        }
+                    </script>
                 </p>
             </div>
         </section>

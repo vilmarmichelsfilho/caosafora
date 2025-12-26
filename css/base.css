@@ -73,6 +73,19 @@
     margin-bottom: 2vw;
 }
 
+p span {
+    color: yellow;
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 2rem;
+    cursor: pointer;
+}
+button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+
 @media only screen and (min-width: 992px) {
     .sobre {
         flex-direction: row;
@@ -87,6 +100,7 @@
         flex-direction: row;
         justify-content: center;
         gap: 1vw;
+        flex-wrap: wrap;
     }
     .sessoes iframe {
         width: 28vw;
